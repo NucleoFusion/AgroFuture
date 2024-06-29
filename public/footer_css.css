@@ -1,0 +1,26 @@
+html{
+  font-family: "Oswald", sans-serif;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  gap:5%;
+}
+
+.color-white{
+  color: white;
+}
+
+.text{
+  font-size: 10px;
+}
+
+.container-cont{
+  display: grid;
+  grid-template-rows: 11% 11% 11%;
+  grid-template-columns: auto;
+  gap: 10%;
+}
+

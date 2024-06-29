@@ -1,0 +1,26 @@
+.container-dd{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8d8dc;
+    text-decoration: double;
+    font-size: x-large;
+    
+}
+
+.select-cont{
+   
+}
+.container-dd{
+    width: 100vw;
+    height: 100vh;
+    /*border: 2px solid black;
+    */
+}
+.container-item{
+    justify-self: center;
+    align-self: center;
+}

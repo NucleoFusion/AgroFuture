@@ -1,0 +1,44 @@
+html{
+    background-color: #d8d8dc;
+    font-family: "Oswald", sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+.container-seed{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75% 25%;
+    gap: 25px;
+}
+
+.pic{
+    background-color: aqua;
+}
+
+.description{
+    grid-column: span 2;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.color-nav{
+    color:grey;
+}

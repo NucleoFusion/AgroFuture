@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/seedShowcase.css">
+    <title> <%= type %> - <%= name %></title>
+</head>
+<body>
+    <h1 class="title"><%= name  %></h1>
+    <div class="container-seed">
+        <div class="column-seed pic fill"><img src="./public/images/download.jpeg" alt="Seed Picture"></div>
+        <div class="column-seed">
+            <h5 class="property creation">Created By: <%= creationLocation %></h5>
+            <h5 class="property locn">Locations: <%= location %></h5> <!--will be Rajsthan only for now-->
+            <h5 class="property water">Water Required: <%= water %></h5>
+            <h5 class="property immune">Immune to: <%= immunities %></h5>
+            <h5 class="property yield">Yeild: <%= Yeild %></h5>
+            <h5 class="property nutrient">Nutrients Req: <%= Nutrients %></h5>
+            <h5 class="property activeDisease">Diseases to Watch out for: <%= disease %></h5>
+            <h5 class="property pest">Reccomended Pesticides: <%= pesticide %></h5>
+            <h5 class="property time">Time till Harvest: <%= harvest %></h5>
+        </div>
+        <div class="column-seed description">
+            <p class="description">
+                <%= description %>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam dignissimos explicabo quasi blanditiis architecto laborum reiciendis aut fugit. Omnis, illo commodi quisquam eveniet ab deleniti error quam facere voluptas.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

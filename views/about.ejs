@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>About Us</title>
+    
+</head>
+<style>
+    /* styles.css */
+
+
+.font-oswald{
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.card-container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+}
+
+.h2-text{
+    text-align: center;
+}
+/* Add styling for team member cards */
+
+</style>
+<body>
+    <%- include("navbar.ejs") %>
+    <div class="about-section">
+        <h1 class="font-oswald">About Us Page</h1>
+        <p class="font-oswald">Some text about who we are and what we do.</p>
+        <p class="font-oswald">Resize the browser window to see that this page is responsive.</p>
+    </div>
+    <h2 class="h2-text">Our Team</h2>
+    <div class="row">
+        <div class="card-container">
+            <div class="card-cont-item">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/download.jpeg" class="card-image card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-oswald">Card title</h5>
+                  <p class="card-text font-oswald">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary font-oswald">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-cont-item">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/download.jpeg" class="card-image card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-oswald">Card title</h5>
+                  <p class="card-text font-oswald">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary font-oswald">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-cont-item">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/download.jpeg" class="card-img-top card-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-oswald">Card title</h5>
+                  <p class="card-text font-oswald">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary font-oswald">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-cont-item">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/download.jpeg" class="card-img-top card-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-oswald">Card title</h5>
+                  <p class="card-text font-oswald">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary font-oswald">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <%- include("footer.ejs") %>
+</body>
+</html>
